@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:passionone ;
+    src: url(/desafios/012/pacote-d012/fontes/Passion_One/PassionOne-Regular.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-family: passionone;
+    padding: 50px;
+}
+
+a {
+    color: rgb(232, 220, 220);
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+body {
+    background-image: url('/desafios/01/pacote-d012/imagens/background001.jpg');
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
+}
+
+.invisivel {
+    display: inline-block;
+   background-color:rgba(0, 0, 0, 0.799);
+   color: white;
+    background-image: url('/desafios/012/pacote-d012/imagens/background00.jpg');    
+}
