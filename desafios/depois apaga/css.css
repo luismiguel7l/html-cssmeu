@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+  background-image: url("imagens/wallpaper002.jpg");
+}
+
+main {
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  padding: 5px;
+  text-align: justify;
+}
+header {
+  background-color: greenyellow;
+}
+header > nav {
+  padding: 5px;
+  text-align: left;
+  display: inline-block;
+}
+nav:hover {
+  background-color: white;
+  border-radius: 15px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+header > h1 {
+  text-align: center;
+}
