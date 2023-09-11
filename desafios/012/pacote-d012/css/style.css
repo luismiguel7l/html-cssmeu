@@ -3,6 +3,8 @@
 @font-face {
     font-family:passionone ;
     src: url(/desafios/012/pacote-d012/fontes/Passion_One/PassionOne-Regular.ttf);
+    font-family:sirifa ;
+    src: url(/desafios/012/pacote-d012/fontes/Sriracha/Sriracha-Regular.ttf);
 }
 
 * {
@@ -24,12 +26,18 @@ a {
     text-decoration: none;
 }
 
-section {
-    padding: 40px;
+section.imagem {
+    background-image: url('/desafios/012/pacote-d012/imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
 }
 
 body {
-    background-image: url('/desafios/01/pacote-d012/imagens/background001.jpg');
+    background-image: url('/desafios/02/pacote-d012/imagens/background001.jpg');
     background-size: 700px 700px;
     background-repeat: no-repeat;
     background-position: center center;
