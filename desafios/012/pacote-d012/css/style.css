@@ -11,44 +11,52 @@
     padding: 0px;
     margin: 0px;
 }
-
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header {
     background-color: black;
-    text-align: center;
     color: white;
-    padding: 30px;
-    font-family: passionone;
-    padding: 50px;
+    text-align: center;
+   
 }
-
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
 a {
-    color: rgb(232, 220, 220);
+    color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
-
+a:hover {
+    text-decoration: underline;
+}
+section {
+padding-top: 10vh;
+padding-bottom: 10vh;
+line-height: 2em;
+padding-left: 30px;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
 section.imagem {
-    background-image: url('/desafios/012/pacote-d012/imagens/background001.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    
-    
+    background-color: rgb(58, 58, 58);
+    color :white;
 }
-
-body {
-    background-image: url('/desafios/02/pacote-d012/imagens/background001.jpg');
-    background-size: 700px 700px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    
-    
+section.imagem >p {
+    background: rgba(0, 0, 0, 0.332);
+    width: 400px;
 }
-
-.invisivel {
-    display: inline-block;
-   background-color:rgba(0, 0, 0, 0.799);
-   color: white;
-    background-image: url('/desafios/012/pacote-d012/imagens/background00.jpg');    
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
